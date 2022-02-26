@@ -1,0 +1,57 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+div.container {
+    margin: auto;
+    background: blueviolet;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    height: 96%;
+    width: 100%;
+}
+
+container {
+    text-align: center;
+}
+
+div.caixas {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+}
+
+input {
+    margin: 2px;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 14px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 10%;
+}
+
+div.caixa {
+    height: 87%;
+    margin: auto;
+    width: 23%;
+}
